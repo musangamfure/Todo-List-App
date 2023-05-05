@@ -3,7 +3,7 @@
 <div align="center">
     <br/>
 
-  <h3><b>Joke Generator App README</b></h3>
+  <h3><b>Todo List App README</b></h3>
 
 </div>
 
@@ -27,7 +27,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Joke Generator App] <a name="about-project"></a>
+# 📖 [Todo List App] <a name="about-project"></a>
 
 This is a very simple and minimalist todo app where users can add, edit and delete tasks.
 
@@ -58,15 +58,7 @@ Caching
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-```
-  npm run dev
-```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+##💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
