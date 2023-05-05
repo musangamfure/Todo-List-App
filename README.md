@@ -3,7 +3,7 @@
 <div align="center">
     <br/>
 
-  <h3><b>To do list README</b></h3>
+  <h3><b>Todo List App README</b></h3>
 
 </div>
 
@@ -27,40 +27,38 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [To-do List] <a name="about-project"></a>
+# 📖 Todo List App <a name="about-project"></a>
 
-> Single page application that allows users to keep track of their tasks.
-
-**[To do List]** is a single page application that allows users to keep track of their tasks. Users can add the task and also check the checkbox if the task has been completed.
+This is a very simple and minimalist todo app where users can add, edit and delete tasks.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> HTML5
-> CSS
-> Javascript
-> Webpack 
+```
+HTML5
+CSS
+Javascript
+Babel Loader
+Sass Loader With Dart Sass
+HTMLWebpackPlugin
+WebpackDevServer
+Asset Resource Loader
+Source Maps
+Caching
+```
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-
-- **[User can add task]**
-- **[User can mark complete task]**
-- **[User can delete completed tasks]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Page can be viewed by opening the index.html on your browser
+- **User can add tasks**
+- **User can edit task**
+- **User can delete tasks**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
@@ -68,22 +66,31 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-
 > Install Git in your computer Git
 > Any text editor VSCode
 > Install linters on your local env't
-> Browser of your choice i.e; Mozilla Firefox ,google chrome, etc
-> Terminal of your choice i.e; Git Bash
-
 
 ### Setup
 
 Clone this repository to your desired folder:
 
- git clone https://github.com/tjay1760/To-do-List.git
- After cloning run 
-> npm run build
-> npm start
+git clone https://github.com/musagamfure/webpack.git
+
+### Usage
+
+Inside your IDE:
+
+Run Dev Server (Port 3000)
+
+```
+  npm start
+```
+
+## Build for production
+
+```
+npm run build
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,10 +98,11 @@ Clone this repository to your desired folder:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **John Thiongo**
+👤 **Musangamfura Emmanuel**
 
-- GitHub: [@githubhandle](https://github.com/tjay1760)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/john-thiongo-10484347/)
+- GitHub: [@musangamfure](https://github.com/musangamfure)
+- Twitter: [@musangamfure](https://twitter.com/musangamfure)
+- LinkedIn: [@Musangamfura Emmanuel](https://www.linkedin.com/in/musangamfura-emmanuel-6a214a262/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,9 +110,8 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[User can re-arrange List Items]**
-- [ ] **[User friendly Styling]**
-- [ ] **[Cool animations]**
+- [ ] **Adding Navigation Menu**
+- [ ] **User friendly Styling**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,22 +129,20 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
 If you like this project give it a ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🙏 Acknowledgements <a name="acknowledgements"></a>
 
-I would like to thank Microverse
+I would like to thank Microverse For everything.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
