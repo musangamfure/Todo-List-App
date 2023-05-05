@@ -133,7 +133,9 @@ If you like this project give it a ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-I would like to thank Microverse
+## 🙏 Acknowledgements <a name="acknowledgements"></a>
+
+I would like to thank Microverse For everything.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
