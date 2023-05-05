@@ -1,36 +1,36 @@
-import Sortable from "sortablejs";
-import getSavedTodoItems from "../modules/createList.js";
-import checkboxCheck from "../modules/checkbox.js";
-import toggleDeleteIcon from "../modules/toggleicon.js";
-import "./index.css";
-import bars from "./assets/bars-icon.svg";
-import enter from "./assets/enter-icon.png";
+import Sortable from 'sortablejs';
+import getSavedTodoItems from '../modules/createList.js';
+import checkboxCheck from '../modules/checkbox.js';
+import toggleDeleteIcon from '../modules/toggleicon.js';
+import './index.css';
+import bars from './assets/bars-icon.svg';
+import enter from './assets/enter-icon.png';
 
-const barsImg = document.querySelector(".bars");
-const enterImg = document.querySelector(".enter");
+const barsImg = document.querySelector('.bars');
+const enterImg = document.querySelector('.enter');
 
 barsImg.src = bars;
 enterImg.src = enter;
 
-const todoListItem = document.querySelector(".activity");
-const todoList = document.getElementsByClassName("todo-list")[0];
-const clearButton = document.querySelector(".clear");
+const todoListItem = document.querySelector('.activity');
+const todoList = document.getElementsByClassName('todo-list')[0];
+const clearButton = document.querySelector('.clear');
 let todoItems = [];
 
 Sortable.create(todoList, {
   animation: 150,
-  ghostClass: "blue-background-class",
+  ghostClass: 'blue-background-class',
   onEnd: () => {
-    todoList.classList.add("sorted");
+    todoList.classList.add('sorted');
 
     setTimeout(() => {
-      todoList.classList.remove("sorted");
+      todoList.classList.remove('sorted');
     }, 1000);
   },
 });
 
 function saveTodoItems() {
-  localStorage.setItem("todoItems", JSON.stringify(todoItems));
+  localStorage.setItem('todoItems', JSON.stringify(todoItems));
 }
 function fixindex() {
   for (let i = 1; i < todoItems.length; i += 1) {
@@ -50,9 +50,9 @@ function addTodo(todo) {
 }
 
 function editItem(label) {
-  const editItem = document.querySelectorAll(".edit-item");
+  const editItem = document.querySelectorAll('.edit-item');
   label.contentEditable = true;
-  label.addEventListener("blur", () => {
+  label.addEventListener('blur', () => {
     for (let i = 1; i < editItem.length; i += 1) {
       todoItems[i].description = editItem[i].innerText;
     }
@@ -62,49 +62,49 @@ function editItem(label) {
 
 todoItems = getSavedTodoItems();
 function displayTodoItems() {
-  todoList.innerHTML = "";
+  todoList.innerHTML = '';
   for (let i = 1; i < todoItems.length; i += 1) {
     const todoItem = todoItems[i];
-    const item = document.createElement("li");
-    item.classList.add("list-item");
-    const checkbox = document.createElement("input");
-    checkbox.type = "checkbox";
+    const item = document.createElement('li');
+    item.classList.add('list-item');
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
     checkbox.checked = todoItem.completed;
-    checkbox.classList.add("checkbox");
-    checkbox.addEventListener("change", () => {
+    checkbox.classList.add('checkbox');
+    checkbox.addEventListener('change', () => {
       todoItem.completed = checkbox.checked;
       saveTodoItems();
     });
-    const label = document.createElement("label");
-    label.htmlFor = "checkbox";
+    const label = document.createElement('label');
+    label.htmlFor = 'checkbox';
     label.innerText = todoItem.description;
-    label.classList.add("edit-item");
-    const icon = document.createElement("i");
-    icon.className = "fas fa-ellipsis-v";
-    icon.classList.add("icon");
+    label.classList.add('edit-item');
+    const icon = document.createElement('i');
+    icon.className = 'fas fa-ellipsis-v';
+    icon.classList.add('icon');
     item.appendChild(checkbox);
     item.appendChild(label);
     item.appendChild(icon);
     const itemId = todoItem.index;
-    item.setAttribute("data-id", itemId);
+    item.setAttribute('data-id', itemId);
     todoList.appendChild(item);
     editItem(label);
   }
   fixindex();
 
-  const icons = Array.from(document.querySelectorAll(".icon"));
+  const icons = Array.from(document.querySelectorAll('.icon'));
 
   function toggleDeleteIcon(icon) {
-    icon.classList.toggle("fa-trash-alt");
-    icon.classList.toggle("fa-ellipsis-v");
+    icon.classList.toggle('fa-trash-alt');
+    icon.classList.toggle('fa-ellipsis-v');
   }
 
   icons.forEach((icon) => {
-    icon.addEventListener("mouseover", () => {
+    icon.addEventListener('mouseover', () => {
       toggleDeleteIcon(icon);
     });
 
-    icon.addEventListener("mouseout", () => {
+    icon.addEventListener('mouseout', () => {
       toggleDeleteIcon(icon);
     });
   });
@@ -115,24 +115,24 @@ function deleteTodoItem() {
   displayTodoItems();
 }
 displayTodoItems();
-todoListItem.addEventListener("keydown", (event) => {
+todoListItem.addEventListener('keydown', (event) => {
   if (event.keyCode === 13) {
     addTodo(todoListItem.value);
-    todoListItem.value = "";
+    todoListItem.value = '';
     event.preventDefault();
     displayTodoItems();
   }
 });
-clearButton.addEventListener("click", () => {
+clearButton.addEventListener('click', () => {
   checkboxCheck(todoItems);
   deleteTodoItem();
 });
 
-todoList.addEventListener("click", (event) => {
-  if (event.target.classList.contains("fa-trash-alt")) {
+todoList.addEventListener('click', (event) => {
+  if (event.target.classList.contains('fa-trash-alt')) {
     const itemId = parseInt(
-      event.target.closest(".list-item").getAttribute("data-id"),
-      10
+      event.target.closest('.list-item').getAttribute('data-id'),
+      10,
     );
     todoItems = todoItems.filter((item) => item.index !== itemId);
     saveTodoItems();
