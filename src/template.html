@@ -1,54 +1,33 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
-    <meta charset="utf-8" />
-    <title>Todo List App</title>
-    <link rel="stylesheet" href="./styles/main.css" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <title>To Do List</title>
   </head>
   <body>
-    <div class="wrapper">
+    <section class="container">
       <div class="title">
         <h1>Todo List</h1>
-        <img class="refresh" src="./assets/Refresh_icon.png" alt="icon" />
+        <img class="refresh" src="./assets/refresh-icon.png" alt="icon" />
       </div>
       <div class="task-input">
         <img class="bars" src="./assets/bars-icon.svg" alt="icon" />
         <input type="text" placeholder="Add a new task" />
         <img class="enter" src="./assets/enter-icon.png" alt="" />
       </div>
-      <ul class="task-box">
-        <ul class="task-box">
-          <li class="task">
-            <label for="1">
-              <input type="checkbox" id="1" />
-              <p>Renew gym membership</p>
-            </label>
-            <div class="settings">
-              <img class="ellipsis" src="./assets/ellipsis.png" alt="" />
-            </div>
-          </li>
-          <li class="task">
-            <label for="1">
-              <input type="checkbox" id="1" />
-              <p>Write a LinkedIn Post</p>
-            </label>
-            <div class="settings">
-              <img class="ellipsis" src="./assets/ellipsis.png" alt="" />
-            </div>
-          </li>
-          <li class="task">
-            <label for="1">
-              <input type="checkbox" id="1" />
-              <p>Complete my todo list app</p>
-            </label>
-            <div class="settings">
-              <img class="ellipsis" src="./assets/ellipsis.png" alt="" />
-            </div>
-          </li>
-        </ul>
-      </ul>
-      <button class="clear-btn">Clear All completed</button>
-    </div>
+      <div class="row">
+        <div class="tasks"></div>
+      </div>
+      <div class="row">
+        <button type="button" class="clear-button">Clear all completed</button>
+      </div>
+    </section>
   </body>
+  <script src="../dist/main.js"></script>
 </html>

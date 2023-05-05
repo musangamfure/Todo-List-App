@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Poppins:wght@400;500;700&family=Public+Sans:wght@300;400;500;600&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "/* Import Google Font - Poppins */\r\n\r\n* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  font-family: \"Open Sans\", sans-serif;\r\n}\r\n\r\nbody {\r\n  width: 100%;\r\n  height: 100vh;\r\n  overflow: hidden;\r\n  background: #fff;\r\n}\r\n\r\nimg {\r\n  width: 25px;\r\n}\r\n\r\n.wrapper {\r\n  max-width: 700px;\r\n  background: #fff;\r\n  border-radius: 8px;\r\n  margin: 135px auto;\r\n  padding: 28px;\r\n  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);\r\n}\r\n\r\n.title {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  margin-bottom: 20px;\r\n}\r\n\r\n.title h1 {\r\n  color: #9a9ca2;\r\n}\r\n\r\n.task-input {\r\n  height: 52px;\r\n  position: relative;\r\n}\r\n\r\n.task-input input {\r\n  height: 100%;\r\n  width: 100%;\r\n  padding: 0 20px 0 53px;\r\n  font-size: 19px;\r\n  border-radius: 6px;\r\n  border: none;\r\n}\r\n\r\n.task-input input::placeholder {\r\n  color: #b9b9b9;\r\n  font-style: italic;\r\n  font-weight: 300;\r\n}\r\n\r\n.task-input .bars {\r\n  position: absolute;\r\n  top: 50%;\r\n  transform: translate(17px, -50%);\r\n}\r\n\r\n.task-input .enter {\r\n  position: absolute;\r\n  top: 50%;\r\n  transform: translate(-27px, -50%);\r\n  width: 15px;\r\n}\r\n\r\n.task-box {\r\n  margin: 20px 0;\r\n}\r\n\r\n.task-box .task {\r\n  list-style: none;\r\n  font-size: 18px;\r\n  margin-bottom: 18px;\r\n  margin-bottom: 16px;\r\n}\r\n\r\n.task-box .task:last-child {\r\n  border-bottom: 1px solid #ccc;\r\n  padding-bottom: 18px;\r\n}\r\n\r\n.task label {\r\n  display: flex;\r\n}\r\n\r\nlabel p {\r\n  color: #000;\r\n  font-size: 16px;\r\n  font-weight: 300;\r\n}\r\n\r\n.task label input {\r\n  margin-top: 6px;\r\n  margin-right: 12px;\r\n  width: 16px;\r\n  height: 16px;\r\n}\r\n\r\nli {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n}\r\n\r\n.clear-btn {\r\n  width: 100%;\r\n  color: #a3a3a3;\r\n  padding: 8px;\r\n  cursor: pointer;\r\n  background: #f6f6f6;\r\n  border: none;\r\n  font-size: 18px;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA,iCAAiC;;AAGjC;EACE,SAAS;EACT,UAAU;EACV,sBAAsB;EACtB,oCAAoC;AACtC;;AAEA;EACE,WAAW;EACX,aAAa;EACb,gBAAgB;EAChB,gBAAgB;AAClB;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,gBAAgB;EAChB,gBAAgB;EAChB,kBAAkB;EAClB,kBAAkB;EAClB,aAAa;EACb,8CAA8C;AAChD;;AAEA;EACE,aAAa;EACb,8BAA8B;EAC9B,mBAAmB;EACnB,mBAAmB;AACrB;;AAEA;EACE,cAAc;AAChB;;AAEA;EACE,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,YAAY;EACZ,WAAW;EACX,sBAAsB;EACtB,eAAe;EACf,kBAAkB;EAClB,YAAY;AACd;;AAEA;EACE,cAAc;EACd,kBAAkB;EAClB,gBAAgB;AAClB;;AAEA;EACE,kBAAkB;EAClB,QAAQ;EACR,gCAAgC;AAClC;;AAEA;EACE,kBAAkB;EAClB,QAAQ;EACR,iCAAiC;EACjC,WAAW;AACb;;AAEA;EACE,cAAc;AAChB;;AAEA;EACE,gBAAgB;EAChB,eAAe;EACf,mBAAmB;EACnB,mBAAmB;AACrB;;AAEA;EACE,6BAA6B;EAC7B,oBAAoB;AACtB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,WAAW;EACX,eAAe;EACf,gBAAgB;AAClB;;AAEA;EACE,eAAe;EACf,kBAAkB;EAClB,WAAW;EACX,YAAY;AACd;;AAEA;EACE,aAAa;EACb,8BAA8B;EAC9B,mBAAmB;AACrB;;AAEA;EACE,WAAW;EACX,cAAc;EACd,YAAY;EACZ,eAAe;EACf,mBAAmB;EACnB,YAAY;EACZ,eAAe;AACjB","sourcesContent":["/* Import Google Font - Poppins */\r\n@import url(\"https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Poppins:wght@400;500;700&family=Public+Sans:wght@300;400;500;600&display=swap\");\r\n\r\n* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  font-family: \"Open Sans\", sans-serif;\r\n}\r\n\r\nbody {\r\n  width: 100%;\r\n  height: 100vh;\r\n  overflow: hidden;\r\n  background: #fff;\r\n}\r\n\r\nimg {\r\n  width: 25px;\r\n}\r\n\r\n.wrapper {\r\n  max-width: 700px;\r\n  background: #fff;\r\n  border-radius: 8px;\r\n  margin: 135px auto;\r\n  padding: 28px;\r\n  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);\r\n}\r\n\r\n.title {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  margin-bottom: 20px;\r\n}\r\n\r\n.title h1 {\r\n  color: #9a9ca2;\r\n}\r\n\r\n.task-input {\r\n  height: 52px;\r\n  position: relative;\r\n}\r\n\r\n.task-input input {\r\n  height: 100%;\r\n  width: 100%;\r\n  padding: 0 20px 0 53px;\r\n  font-size: 19px;\r\n  border-radius: 6px;\r\n  border: none;\r\n}\r\n\r\n.task-input input::placeholder {\r\n  color: #b9b9b9;\r\n  font-style: italic;\r\n  font-weight: 300;\r\n}\r\n\r\n.task-input .bars {\r\n  position: absolute;\r\n  top: 50%;\r\n  transform: translate(17px, -50%);\r\n}\r\n\r\n.task-input .enter {\r\n  position: absolute;\r\n  top: 50%;\r\n  transform: translate(-27px, -50%);\r\n  width: 15px;\r\n}\r\n\r\n.task-box {\r\n  margin: 20px 0;\r\n}\r\n\r\n.task-box .task {\r\n  list-style: none;\r\n  font-size: 18px;\r\n  margin-bottom: 18px;\r\n  margin-bottom: 16px;\r\n}\r\n\r\n.task-box .task:last-child {\r\n  border-bottom: 1px solid #ccc;\r\n  padding-bottom: 18px;\r\n}\r\n\r\n.task label {\r\n  display: flex;\r\n}\r\n\r\nlabel p {\r\n  color: #000;\r\n  font-size: 16px;\r\n  font-weight: 300;\r\n}\r\n\r\n.task label input {\r\n  margin-top: 6px;\r\n  margin-right: 12px;\r\n  width: 16px;\r\n  height: 16px;\r\n}\r\n\r\nli {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n}\r\n\r\n.clear-btn {\r\n  width: 100%;\r\n  color: #a3a3a3;\r\n  padding: 8px;\r\n  cursor: pointer;\r\n  background: #f6f6f6;\r\n  border: none;\r\n  font-size: 18px;\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "/* Import Google Font - Poppins */\r\n\r\n* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  font-family: \"Open Sans\", sans-serif;\r\n}\r\n\r\nbody {\r\n  width: 100%;\r\n  height: 100vh;\r\n  overflow: hidden;\r\n  background: #fff;\r\n}\r\n\r\nimg {\r\n  width: 25px;\r\n}\r\n\r\n.container {\r\n  max-width: 700px;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n  border-radius: 8px;\r\n  margin: 135px auto;\r\n  padding: 28px;\r\n  background-color: white;\r\n  box-shadow: rgba(0, 0, 0, 0.28) 3px 3px 3px 3px;\r\n}\r\n\r\n.title {\r\n  width: 100%;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  margin-bottom: 20px;\r\n}\r\n\r\n.title h1 {\r\n  color: #9a9ca2;\r\n}\r\n\r\n.task-input {\r\n  width: 100%;\r\n  height: 52px;\r\n  position: relative;\r\n}\r\n\r\n.task-input input {\r\n  height: 100%;\r\n  width: 100%;\r\n  padding: 0 20px 0 53px;\r\n  font-size: 19px;\r\n  border-radius: 6px;\r\n  border: none;\r\n}\r\n\r\n.task-input input::placeholder {\r\n  color: #b9b9b9;\r\n  font-style: italic;\r\n  font-weight: 300;\r\n}\r\n\r\n.task-input .bars {\r\n  position: absolute;\r\n  top: 50%;\r\n  transform: translate(17px, -50%);\r\n}\r\n\r\n.task-input .enter {\r\n  position: absolute;\r\n  top: 50%;\r\n  transform: translate(-27px, -50%);\r\n  width: 15px;\r\n}\r\n\r\n.container > .row {\r\n  background-color: white;\r\n  width: 95%;\r\n  padding: 10px 0;\r\n}\r\n\r\n.container .row:nth-child(3) {\r\n  background-color: white;\r\n  border-bottom: none;\r\n  width: 95%;\r\n  padding: 0;\r\n}\r\n\r\n.container .row:last-child {\r\n  background-color: white;\r\n  width: 95%;\r\n  padding: 0;\r\n}\r\n\r\n.row input {\r\n  outline: none;\r\n  margin: 0;\r\n  border: none;\r\n  width: 100%;\r\n}\r\n\r\n.task-container {\r\n  display: flex;\r\n  flex-direction: row;\r\n  justify-content: flex-start;\r\n  border-bottom: none;\r\n}\r\n\r\n.task-container:last-child {\r\n  border-bottom: 1px solid #a3a3a3;\r\n  margin-bottom: 15px;\r\n}\r\n\r\n.currenttask {\r\n  display: flex;\r\n  justify-content: flex-start;\r\n  align-items: center;\r\n  padding: 10px 10px;\r\n  font-weight: 300;\r\n}\r\n\r\n.task-container input {\r\n  width: auto;\r\n  margin-right: 10px;\r\n}\r\n\r\n.row .clear-button {\r\n  width: 100%;\r\n  color: #a3a3a3;\r\n  padding: 8px;\r\n  cursor: pointer;\r\n  background: #f6f6f6;\r\n  border: none;\r\n  font-size: 18px;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA,iCAAiC;;AAGjC;EACE,SAAS;EACT,UAAU;EACV,sBAAsB;EACtB,oCAAoC;AACtC;;AAEA;EACE,WAAW;EACX,aAAa;EACb,gBAAgB;EAChB,gBAAgB;AAClB;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,gBAAgB;EAChB,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,uBAAuB;EACvB,kBAAkB;EAClB,kBAAkB;EAClB,aAAa;EACb,uBAAuB;EACvB,+CAA+C;AACjD;;AAEA;EACE,WAAW;EACX,aAAa;EACb,8BAA8B;EAC9B,mBAAmB;EACnB,mBAAmB;AACrB;;AAEA;EACE,cAAc;AAChB;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,YAAY;EACZ,WAAW;EACX,sBAAsB;EACtB,eAAe;EACf,kBAAkB;EAClB,YAAY;AACd;;AAEA;EACE,cAAc;EACd,kBAAkB;EAClB,gBAAgB;AAClB;;AAEA;EACE,kBAAkB;EAClB,QAAQ;EACR,gCAAgC;AAClC;;AAEA;EACE,kBAAkB;EAClB,QAAQ;EACR,iCAAiC;EACjC,WAAW;AACb;;AAEA;EACE,uBAAuB;EACvB,UAAU;EACV,eAAe;AACjB;;AAEA;EACE,uBAAuB;EACvB,mBAAmB;EACnB,UAAU;EACV,UAAU;AACZ;;AAEA;EACE,uBAAuB;EACvB,UAAU;EACV,UAAU;AACZ;;AAEA;EACE,aAAa;EACb,SAAS;EACT,YAAY;EACZ,WAAW;AACb;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,2BAA2B;EAC3B,mBAAmB;AACrB;;AAEA;EACE,gCAAgC;EAChC,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,2BAA2B;EAC3B,mBAAmB;EACnB,kBAAkB;EAClB,gBAAgB;AAClB;;AAEA;EACE,WAAW;EACX,kBAAkB;AACpB;;AAEA;EACE,WAAW;EACX,cAAc;EACd,YAAY;EACZ,eAAe;EACf,mBAAmB;EACnB,YAAY;EACZ,eAAe;AACjB","sourcesContent":["/* Import Google Font - Poppins */\r\n@import url(\"https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Poppins:wght@400;500;700&family=Public+Sans:wght@300;400;500;600&display=swap\");\r\n\r\n* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  font-family: \"Open Sans\", sans-serif;\r\n}\r\n\r\nbody {\r\n  width: 100%;\r\n  height: 100vh;\r\n  overflow: hidden;\r\n  background: #fff;\r\n}\r\n\r\nimg {\r\n  width: 25px;\r\n}\r\n\r\n.container {\r\n  max-width: 700px;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n  border-radius: 8px;\r\n  margin: 135px auto;\r\n  padding: 28px;\r\n  background-color: white;\r\n  box-shadow: rgba(0, 0, 0, 0.28) 3px 3px 3px 3px;\r\n}\r\n\r\n.title {\r\n  width: 100%;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  margin-bottom: 20px;\r\n}\r\n\r\n.title h1 {\r\n  color: #9a9ca2;\r\n}\r\n\r\n.task-input {\r\n  width: 100%;\r\n  height: 52px;\r\n  position: relative;\r\n}\r\n\r\n.task-input input {\r\n  height: 100%;\r\n  width: 100%;\r\n  padding: 0 20px 0 53px;\r\n  font-size: 19px;\r\n  border-radius: 6px;\r\n  border: none;\r\n}\r\n\r\n.task-input input::placeholder {\r\n  color: #b9b9b9;\r\n  font-style: italic;\r\n  font-weight: 300;\r\n}\r\n\r\n.task-input .bars {\r\n  position: absolute;\r\n  top: 50%;\r\n  transform: translate(17px, -50%);\r\n}\r\n\r\n.task-input .enter {\r\n  position: absolute;\r\n  top: 50%;\r\n  transform: translate(-27px, -50%);\r\n  width: 15px;\r\n}\r\n\r\n.container > .row {\r\n  background-color: white;\r\n  width: 95%;\r\n  padding: 10px 0;\r\n}\r\n\r\n.container .row:nth-child(3) {\r\n  background-color: white;\r\n  border-bottom: none;\r\n  width: 95%;\r\n  padding: 0;\r\n}\r\n\r\n.container .row:last-child {\r\n  background-color: white;\r\n  width: 95%;\r\n  padding: 0;\r\n}\r\n\r\n.row input {\r\n  outline: none;\r\n  margin: 0;\r\n  border: none;\r\n  width: 100%;\r\n}\r\n\r\n.task-container {\r\n  display: flex;\r\n  flex-direction: row;\r\n  justify-content: flex-start;\r\n  border-bottom: none;\r\n}\r\n\r\n.task-container:last-child {\r\n  border-bottom: 1px solid #a3a3a3;\r\n  margin-bottom: 15px;\r\n}\r\n\r\n.currenttask {\r\n  display: flex;\r\n  justify-content: flex-start;\r\n  align-items: center;\r\n  padding: 10px 10px;\r\n  font-weight: 300;\r\n}\r\n\r\n.task-container input {\r\n  width: auto;\r\n  margin-right: 10px;\r\n}\r\n\r\n.row .clear-button {\r\n  width: 100%;\r\n  color: #a3a3a3;\r\n  padding: 8px;\r\n  cursor: pointer;\r\n  background: #f6f6f6;\r\n  border: none;\r\n  font-size: 18px;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -469,16 +469,6 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
-/***/ "./src/assets/Refresh_icon.png":
-/*!*************************************!*\
-  !*** ./src/assets/Refresh_icon.png ***!
-  \*************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "Refresh_icon.png";
-
-/***/ }),
-
 /***/ "./src/assets/bars-icon.svg":
 /*!**********************************!*\
   !*** ./src/assets/bars-icon.svg ***!
@@ -489,16 +479,6 @@ module.exports = __webpack_require__.p + "bars-icon.svg";
 
 /***/ }),
 
-/***/ "./src/assets/ellipsis.png":
-/*!*********************************!*\
-  !*** ./src/assets/ellipsis.png ***!
-  \*********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "ellipsis.png";
-
-/***/ }),
-
 /***/ "./src/assets/enter-icon.png":
 /*!***********************************!*\
   !*** ./src/assets/enter-icon.png ***!
@@ -506,6 +486,16 @@ module.exports = __webpack_require__.p + "ellipsis.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "enter-icon.png";
+
+/***/ }),
+
+/***/ "./src/assets/refresh-icon.png":
+/*!*************************************!*\
+  !*** ./src/assets/refresh-icon.png ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "refresh-icon.png";
 
 /***/ })
 
@@ -626,24 +616,49 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.css */ "./src/styles/main.css");
 /* harmony import */ var _assets_bars_icon_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/bars-icon.svg */ "./src/assets/bars-icon.svg");
-/* harmony import */ var _assets_ellipsis_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/ellipsis.png */ "./src/assets/ellipsis.png");
-/* harmony import */ var _assets_enter_icon_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/enter-icon.png */ "./src/assets/enter-icon.png");
-/* harmony import */ var _assets_Refresh_icon_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/Refresh_icon.png */ "./src/assets/Refresh_icon.png");
+/* harmony import */ var _assets_enter_icon_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/enter-icon.png */ "./src/assets/enter-icon.png");
+/* harmony import */ var _assets_refresh_icon_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/refresh-icon.png */ "./src/assets/refresh-icon.png");
 
 
 
 
-
-var barsImg = document.querySelector('.bars');
-var ellipsisImg = document.querySelector('.ellipsis');
-var enterImg = document.querySelector('.enter');
-var refreshImg = document.querySelector('.refresh');
+var barsImg = document.querySelector(".bars");
+var enterImg = document.querySelector(".enter");
+var refreshImg = document.querySelector(".refresh");
 barsImg.src = _assets_bars_icon_svg__WEBPACK_IMPORTED_MODULE_1__;
-ellipsisImg.src = _assets_ellipsis_png__WEBPACK_IMPORTED_MODULE_2__;
-enterImg.src = _assets_enter_icon_png__WEBPACK_IMPORTED_MODULE_3__;
-refreshImg.src = _assets_Refresh_icon_png__WEBPACK_IMPORTED_MODULE_4__;
+enterImg.src = _assets_enter_icon_png__WEBPACK_IMPORTED_MODULE_2__;
+refreshImg.src = _assets_refresh_icon_png__WEBPACK_IMPORTED_MODULE_3__;
+var tasklist = [{
+  description: "Renew gym membership",
+  completed: false,
+  index: 0
+}, {
+  description: "Write 100 lines of code",
+  completed: false,
+  index: 1
+}];
+var loadTasks = function loadTasks() {
+  var tasks = document.querySelector(".tasks");
+  tasklist.forEach(function (task) {
+    var containertask = document.createElement("div");
+    var tasklabel = document.createElement("label");
+    var taskinput = document.createElement("input");
+    containertask.setAttribute("class", "task-container");
+    tasklabel.setAttribute("class", "currenttask");
+    taskinput.setAttribute("type", "checkbox");
+    taskinput.checked = task.completed;
+    tasklabel.appendChild(taskinput);
+    tasklabel.appendChild(document.createTextNode(task.description));
+    containertask.appendChild(tasklabel);
+    tasks.appendChild(containertask);
+  });
+};
+var onPageLoad = function onPageLoad() {
+  loadTasks();
+};
+window.onload = onPageLoad();
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle c5ff7d44681af96973d1.js.map
+//# sourceMappingURL=bundle 885915c5b339b8e36047.js.map

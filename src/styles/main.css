@@ -19,16 +19,21 @@ img {
   width: 25px;
 }
 
-.wrapper {
+.container {
   max-width: 700px;
-  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   border-radius: 8px;
   margin: 135px auto;
   padding: 28px;
-  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.28) 3px 3px 3px 3px;
 }
 
 .title {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,6 +45,7 @@ img {
 }
 
 .task-input {
+  width: 100%;
   height: 52px;
   position: relative;
 }
@@ -72,46 +78,58 @@ img {
   width: 15px;
 }
 
-.task-box {
-  margin: 20px 0;
+.container > .row {
+  background-color: white;
+  width: 95%;
+  padding: 10px 0;
 }
 
-.task-box .task {
-  list-style: none;
-  font-size: 18px;
-  margin-bottom: 18px;
-  margin-bottom: 16px;
+.container .row:nth-child(3) {
+  background-color: white;
+  border-bottom: none;
+  width: 95%;
+  padding: 0;
 }
 
-.task-box .task:last-child {
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 18px;
+.container .row:last-child {
+  background-color: white;
+  width: 95%;
+  padding: 0;
 }
 
-.task label {
+.row input {
+  outline: none;
+  margin: 0;
+  border: none;
+  width: 100%;
+}
+
+.task-container {
   display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-bottom: none;
 }
 
-label p {
-  color: #000;
-  font-size: 16px;
+.task-container:last-child {
+  border-bottom: 1px solid #a3a3a3;
+  margin-bottom: 15px;
+}
+
+.currenttask {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 10px;
   font-weight: 300;
 }
 
-.task label input {
-  margin-top: 6px;
-  margin-right: 12px;
-  width: 16px;
-  height: 16px;
+.task-container input {
+  width: auto;
+  margin-right: 10px;
 }
 
-li {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.clear-btn {
+.row .clear-button {
   width: 100%;
   color: #a3a3a3;
   padding: 8px;
