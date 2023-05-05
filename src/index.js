@@ -33,10 +33,10 @@ function saveTodoItems() {
   localStorage.setItem('todoItems', JSON.stringify(todoItems));
 }
 function fixindex() {
-  for (let i = 1; i < todoItems.length; i += 1) {
-    todoItems[i].index = i;
-  }
   saveTodoItems();
+  for (let i = 0; i < todoItems.length; i += 1) {
+    todoItems[i].index = i + 1;
+  }
 }
 
 function addTodo(todo) {
@@ -45,7 +45,8 @@ function addTodo(todo) {
     completed: false,
     index: todoItems.length,
   };
-  todoItems.push(todolistObj);
+  todoItems.splice(1, 0, todolistObj); // insert the new item at index 1
+  fixindex(); // update the index of all items
   saveTodoItems();
 }
 
@@ -53,7 +54,7 @@ function editItem(label) {
   const editItem = document.querySelectorAll('.edit-item');
   label.contentEditable = true;
   label.addEventListener('blur', () => {
-    for (let i = 1; i < editItem.length; i += 1) {
+    for (let i = 0; i < editItem.length; i += 1) {
       todoItems[i].description = editItem[i].innerText;
     }
     saveTodoItems();
@@ -63,7 +64,8 @@ function editItem(label) {
 todoItems = getSavedTodoItems();
 function displayTodoItems() {
   todoList.innerHTML = '';
-  for (let i = 1; i < todoItems.length; i += 1) {
+  for (let i = 0; i < todoItems.length; i += 1) {
+    const idtask = todoItems[i].index;
     const todoItem = todoItems[i];
     const item = document.createElement('li');
     item.classList.add('list-item');
@@ -85,8 +87,7 @@ function displayTodoItems() {
     item.appendChild(checkbox);
     item.appendChild(label);
     item.appendChild(icon);
-    const itemId = todoItem.index;
-    item.setAttribute('data-id', itemId);
+    item.setAttribute('data-id', idtask);
     todoList.appendChild(item);
     editItem(label);
   }
