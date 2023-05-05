@@ -27,7 +27,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Todo List App] <a name="about-project"></a>
+# 📖 Todo List App <a name="about-project"></a>
 
 This is a very simple and minimalist todo app where users can add, edit and delete tasks.
 
@@ -52,13 +52,13 @@ Caching
 
 ### Key Features <a name="key-features"></a>
 
-- **[User can add tasks]**
-- **[User can edit task]**
-- **[User can delete tasks]**
+- **User can add tasks**
+- **User can edit task**
+- **User can delete tasks**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-##💻 Getting Started <a name="getting-started"></a>
+## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
@@ -110,8 +110,8 @@ npm run build
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Adding Navigation Menu]**
-- [ ] **[User friendly Styling]**
+- [ ] **Adding Navigation Menu**
+- [ ] **User friendly Styling**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
