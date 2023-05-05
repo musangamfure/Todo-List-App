@@ -1,0 +1,140 @@
+/* Import Google Font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Poppins:wght@400;500;700&family=Public+Sans:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #fff;
+}
+
+img {
+  width: 25px;
+}
+
+.container {
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin: 135px auto;
+  padding: 28px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.28) 3px 3px 3px 3px;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title h1 {
+  color: #9a9ca2;
+}
+
+.task-input {
+  width: 100%;
+  height: 52px;
+  position: relative;
+}
+
+.task-input input {
+  height: 100%;
+  width: 100%;
+  padding: 0 20px 0 53px;
+  font-size: 19px;
+  border-radius: 6px;
+  border: none;
+}
+
+.task-input input::placeholder {
+  color: #b9b9b9;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.task-input .bars {
+  position: absolute;
+  top: 50%;
+  transform: translate(17px, -50%);
+}
+
+.task-input .enter {
+  position: absolute;
+  top: 50%;
+  transform: translate(-27px, -50%);
+  width: 15px;
+}
+
+.container > .row {
+  background-color: white;
+  width: 95%;
+  padding: 10px 0;
+}
+
+.container .row:nth-child(3) {
+  background-color: white;
+  border-bottom: none;
+  width: 95%;
+  padding: 0;
+}
+
+.container .row:last-child {
+  background-color: white;
+  width: 95%;
+  padding: 0;
+}
+
+.row input {
+  outline: none;
+  margin: 0;
+  border: none;
+  width: 100%;
+}
+
+.task-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-bottom: none;
+}
+
+.task-container:last-child {
+  border-bottom: 1px solid #a3a3a3;
+  margin-bottom: 15px;
+}
+
+.currenttask {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 10px;
+  font-weight: 300;
+}
+
+.task-container input {
+  width: auto;
+  margin-right: 10px;
+}
+
+.row .clear-button {
+  width: 100%;
+  color: #a3a3a3;
+  padding: 8px;
+  cursor: pointer;
+  background: #f6f6f6;
+  border: none;
+  font-size: 18px;
+}
