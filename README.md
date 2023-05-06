@@ -92,6 +92,11 @@ Run Dev Server (Port 3000)
 npm run build
 ```
 
+### Deployment
+
+You can access this application on:
+[Live Demo](https://musangamfure.github.io/Todo-List-App/dist/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
