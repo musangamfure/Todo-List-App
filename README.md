@@ -83,7 +83,7 @@ Inside your IDE:
 Run Dev Server (Port 3000)
 
 ```
-  npm run dev
+  npm start
 ```
 
 ## Build for production
