@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo-List</title>
+    <link rel="stylesheet" href="../src/index.css" />
+    <script
+      src="https://kit.fontawesome.com/043c3d901b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"
+      integrity="sha512-Eezs+g9Lq4TCCq0wae01s9PuNWzHYoCMkE97e2qdkYthpI0pzC3UGB03lgEHn2XM85hDOUF6qgqqszs+iXU4UA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  <script defer src="bundle289768ce8611b7ae5ae0.js"></script></head>
+  <body>
+    <form class="todo">
+      <div class="title">
+        <h1>Todo List</h1>
+        <i id="icon" class="fas fa-sync recycle"></i>
+      </div>
+      <div class="task-input">
+        <img class="bars" src="./assets/bars-icon.svg" alt="icon" />
+        <input type="text" class="activity" placeholder="Add a new task" />
+        <img class="enter" src="./assets/enter-icon.png" alt="" />
+      </div>
+      <ul class="todo-list"></ul>
+      <button type="button" class="clear bg-color border-0">
+        Clear all completed
+      </button>
+    </form>
+    <script type="module" src="../src/index.js"></script>
+  </body>
+</html>
