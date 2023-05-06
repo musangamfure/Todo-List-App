@@ -45,8 +45,8 @@ function addTodo(todo) {
     completed: false,
     index: todoItems.length,
   };
-  todoItems.splice(1, 0, todolistObj); // insert the new item at index 1
-  fixindex(); // update the index of all items
+  todoItems.splice(1, 0, todolistObj);
+  fixindex();
   saveTodoItems();
 }
 
