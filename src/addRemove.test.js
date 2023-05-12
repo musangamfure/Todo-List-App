@@ -18,14 +18,14 @@ describe('Todo List', () => {
     todoItems = [];
   });
   describe('addTodo', () => {
-    it('should add a todo to the list', () => {
+    it('Add a task to todo list', () => {
       addTodo('Test todo');
       expect(todoItems.length).toEqual(1);
       expect(todoItems[0].description).toEqual('Test todo');
       expect(todoItems[0].completed).toBeFalsy();
       expect(todoItems[0].index).toEqual(0);
     });
-    it('should add multiple todos to the list', () => {
+    it('Add many tasks to todo list', () => {
       addTodo('Test todo 1');
       addTodo('Test todo 2');
       addTodo('Test todo 3');
