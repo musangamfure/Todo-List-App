@@ -36,7 +36,7 @@ describe('Todo List', () => {
     });
   });
   describe('deleteTodoItem', () => {
-    it('should delete a completed todo from the list', () => {
+    it('Delete a task from todo list', () => {
       addTodo('Test todo 1');
       addTodo('Test todo 2');
       addTodo('Test todo 3');
@@ -46,7 +46,7 @@ describe('Todo List', () => {
       expect(todoItems[0].description).toEqual('Test todo 1');
       expect(todoItems[1].description).toEqual('Test todo 3');
     });
-    it('should not delete any todos if none are completed', () => {
+    it('should not delete any uncompleted todos', () => {
       addTodo('Test todo 1');
       addTodo('Test todo 2');
       addTodo('Test todo 3');
