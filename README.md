@@ -95,7 +95,7 @@ npm run build
 ### Deployment
 
 You can access this application on:
-[Live Demo](https://musangamfure.github.io/Todo-List-App/dist/)
+[Live Demo](https://todo-list-app-w0e6.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
